@@ -4,3 +4,21 @@ body {
     text-align: center;
     color: #10375c;
 }
+
+#container {
+    display: table;
+    }
+
+#column {
+    column-count: 1;
+    column-width: 100%;
+    display: table-column;
+}
+
+#row  {
+    display: table-row;
+    }
+
+#middle {
+    display: table-cell;
+    }
