@@ -5,8 +5,14 @@
             Animations
         </title>
         <link rel="stylesheet" href="./styles.css">
-        <script src="https://cdn.jsdelivr.net/npm/p5@1.0.0/lib/p5.js"></script>
-        <script src="./sasj_200324_tribute.js"></script>
+        
+        <style>
+            body {
+              height: 2000px;
+              background: linear-gradient(141deg, #faf4ff 0%,  #faf4ff 25%, #000000 48%);
+            }
+            
+        </style>
     </head>
     <body>
         <header>
@@ -15,10 +21,15 @@
         <div id="sketch-holder1">
             <!-- Our sketch will go here! -->
           </div>
-        <p>This animation is a tribute to 200324 by <a href="https://twitter.com/sasj_nl?lang=en">sasj</a></p>
-        <p>Done with Proccessing via p5.js in colaboration with <a href="http://nuclearpixel.com/about/">Admiral Potato</a></p>
-        
-        <!-- lookup how to attach a p5 script to custom elements -->
-        
+        <p style="color:#faf4ff;">This animation is a tribute to 200324 by <a href="https://twitter.com/sasj_nl?lang=en">sasj</a></p>
+        <p style="color:#faf4ff;">Done with Proccessing via p5.js in collaboration with <a href="http://nuclearpixel.com/about/">Admiral Potato</a></p>
+        <div id="sketch-holder2">
+            <!-- Our sketch will go here! -->
+        </div>
+        <p style="color:#faf4ff;">Playing with related shape motion in the style of Packman</p>
+        <p style="color:#faf4ff;">Done with Proccessing via p5.js</p>
+        <script src="https://cdn.jsdelivr.net/npm/p5@1.0.0/lib/p5.js"></script>
+        <script src="./sasj_200324_tribute.js"></script>
+        <script src="./packman.js"></script>
     </body>
 </html>
